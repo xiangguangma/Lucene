@@ -1,0 +1,13 @@
+操作系统准备好后，就需要一些组件了,hadoop比较简单，只需要ssh和java环境，再加个下代码的SVN。
+
+先用 sudo apt-get install subversion ssh ant 这个命令，把SSH、Ant和SVN安装起来。
+
+java环境，可以在网上下载一个JDK安装包，如：jdk-6u24-linux-i586.bin
+
+安装直接在目录下运行./jdk-6u24-linux-i586.bin即可。
+
+然后配置jdk目录：
+
+先进入安装目录 cd jdk-6u24-…
+
+然后输入 PWD 就可以看到java安装目录,复制下来
